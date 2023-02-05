@@ -48,7 +48,7 @@
 
 /* III position */
 
-p {
+.text {
     margin-top: 50px;
     font-size: 20px;
     animation-name: lorem;
@@ -65,7 +65,7 @@ p {
     }
 }
 
-/* III position */
+/* IV position */
 
 /* header */
 
@@ -117,5 +117,31 @@ ul {
     }
     to{
         transform: rotate(360deg);
+    }
+}
+
+/* VI position  */
+
+.box4_loading_btn{
+    width: 50vw;
+    height: 7vh;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: button 5s forwards red;
+    animation-timing-function: linear;
+}
+
+@keyframes button {
+   from {
+    left: 0px; 
+    }
+    to {
+      left: 100%;
     }
 }
