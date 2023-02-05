@@ -39,3 +39,21 @@
         background-color: rgba(233, 233, 180, .5);
     }
 }
+
+/* III position */
+
+p{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+    animation-name: lorem;
+    animation-duration: 7s;
+}
+@keyframes lorem{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 8px;
+    }
+}
