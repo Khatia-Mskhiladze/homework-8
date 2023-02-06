@@ -133,15 +133,20 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: button 5s forwards red;
+    animation-name: loading_system;
+    animation-duration: 5s;
+    animation-delay: 1s;
     animation-timing-function: linear;
 }
 
-@keyframes button {
+@keyframes loading_system {
    from {
-    left: 0px; 
+    background-color: aliceblue;
+    width: 0vw;
     }
     to {
-      left: 100%;
+        background-color: red;
+        width: 50vw;
     }
 }
+
